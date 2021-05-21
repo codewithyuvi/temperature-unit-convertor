@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Unit Convertor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="whole_container">
+        <div class="small_container">
+            <h1>Temperature Unit Convertor</h1>
+            <label for="temperature">Enter Your Temperature</label>
+            <input type="number" id="temperature"> 
+            <br>
+            <label for="temperature">Convert it to- </label>
+            <select name="temperature" id="type_of_temperature">
+                <option value="Celcius" selected>Celcius</option>
+                <option value="Fahrenheit">Fahrenheit</option>
+            </select>
+            <button id="btn">Get Results</button>
+            <p id="answer"></p>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
